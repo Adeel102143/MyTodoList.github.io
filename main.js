@@ -112,6 +112,7 @@ function DisplayTodos () {
 			todos = todos.filter(t => t != todo);
 			localStorage.setItem('todos', JSON.stringify(todos));
 			DisplayTodos()
+			
 		})
 
 	})
